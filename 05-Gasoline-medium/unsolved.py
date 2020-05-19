@@ -6,3 +6,9 @@
 # • 1 gallon of gas produces 115,000 BTU (British Thermal Units). 1 gallon of ethanol
 # produces 75,700 BTU.
 # • God knows what the cost should be, but let’s peg it at $4.00/gallon
+galloon = int(input('enter galloons:'))
+print('litres:',galloon*3.7854)
+print('barels:',galloon/19.5)
+print('CO2:',galloon*20)
+print('Etanol:',galloon*115000/75700)
+print('Price:',galloon*4)
