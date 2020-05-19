@@ -9,8 +9,8 @@ richter_scale_value = input("Please enter a Richter scale value:")
 richter = float(richter_scale_value)
 tnt_joules = 4.184 * (10 ** 9)
 
-richter_joules = ?
-tnt = ?
+richter_joules = 10 ** ( 1.5 * richter + 4.8)
+tnt = richter_joules/tnt_joules
 
 
 print("Richter scale value:", richter)
